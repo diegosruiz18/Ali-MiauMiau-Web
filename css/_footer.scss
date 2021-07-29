@@ -1,0 +1,51 @@
+
+footer{
+    .direccion{
+        background: #000000;
+        padding: 40px 0px;
+        padding-bottom: 30px;
+        color: #fff;
+        .titulo{
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+        .calle, .titulo, .correo{
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .whatsapp{
+            background: #000000;
+            .wssp{
+                color: #25d366;
+            }
+        }
+    }
+    .social{
+        text-align: center;
+        padding: 20px 0px;
+        a{
+            padding: 10px;
+            display: inline-block;
+            margin: 0px 20px;
+            width: 50px;
+            font-size: 22px;
+            color: #fff;
+            background: #000;
+            border-radius: 100px;
+            &:hover{
+                text-decoration: none;
+            }
+            &.facebook{
+                background: #3b5998;
+            }
+            &.twitter{
+                background: #55acee;
+            }
+            &.youtube{
+                background: #cd201f;
+            }
+        }
+    }
+}

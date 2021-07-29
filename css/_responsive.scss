@@ -1,0 +1,154 @@
+
+@media screen and (max-width:992px) {
+    header{
+        .contenedor_logo_menu{
+            .logo{
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .menu{
+                text-align: center;
+                a{
+                    margin: 0px 10px;
+                }
+            }
+        }
+        .textos{
+            margin: 50px 0px;
+            font-size: 16px;
+            .primera_linea{
+                font-size: 2em;
+            }
+            .segunda_linea{
+                font-size: 1.3em;
+            }
+            .contenedor-btns{
+                a{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .main{
+        .fotos{
+            .foto{
+                .titulo{
+                    margin-top: 0px;
+
+                }
+            }
+        }
+        .disponibles{
+            .disponible{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media  screen and(max-width:768px) {
+    header{
+        .contenedor_logo_menu{
+            .menu{
+                text-align: center;
+                a{
+                    margin: 0px 10px;
+                }
+            }
+        }
+    }
+    .main{
+        .caracteristicas{
+            .caracteristica{
+                margin-bottom: 40px;
+            }
+        }
+        .fotos{
+            .foto{
+                text-align: center;
+                .texto{
+                    *{
+                        text-align: left;
+                    }
+                    p{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .precios{
+            .plan{
+                .precio{
+                    margin-bottom: 30px;
+                    &.responsive{
+                        margin-bottom: 0px;
+                        padding-bottom: 4px;
+                    }
+                }
+                .caracteristicas{
+                    li{ 
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .direccion{
+            text-align: center;
+            .logo{
+                img{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media  screen and(max-width:575px) {
+    header{
+        .contenedor_logo_menu{
+            .menu{
+                text-align: center;
+                a{
+                    margin: 0px 10px;
+                }
+            }
+        }
+    }
+    .main{
+        .caracteristicas{
+            .caracteristica{
+                margin-bottom: 40px;
+            }
+        }
+        .fotos{
+            .foto{
+                text-align: center;
+                .texto{
+                    *{
+                        text-align: left;
+                    }
+                    p{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .precios{
+            .precio{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    footer{
+        .direccion{
+            text-align: center;
+            .logo{
+                img{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,239 @@
+
+.main{
+    .caracteristicas{
+        padding: 70px 0px;
+        .titulo{
+            text-align: center;
+            font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 32px;
+            color: #000;
+            margin-bottom: 70px;
+        }
+        .caracteristica{
+            text-align: center;
+            .icono{
+                vertical-align: top;
+                margin-bottom: 30px;
+            }
+            .primera_linea{
+                font-weight: 700;
+                margin-bottom: 30px;
+                font-size: 20px;
+            }
+            .parrafo{
+                margin-bottom: 30px;
+                line-height: 28px;
+            }
+        }
+    }
+    .fotos{
+        margin-bottom: 70px;
+        .foto{
+            margin-bottom: 20px;
+            .thumb{
+                img{
+                    border-radius: 3px;
+                    width: 100%;
+                    vertical-align: top;
+                }
+            }
+            .titulo{
+                margin-top: 90px;
+                margin-bottom: 40px;
+                font-size: 32px;
+                line-height: 32px;
+                font-weight: 400;
+                &.azul{
+                    //color: #e2866f;
+                    color: #212529;
+                }
+                &.naranja{
+                    color: #212529;
+                }
+            }
+            .parrafo{
+                line-height: 28px;
+                /*font-style: bold;*/ 
+            }
+            .derecha{
+                text-align: right;
+            }
+        }
+        
+    }
+    .disponibles{
+        background-image: linear-gradient(to right, #00021c, #071025, #0b1a2e, #0f2238, #122b42);
+        padding: 60px 0px;
+        .parrafo{
+            color: #fff;
+            font-size: 30px;
+        }
+        .disponible{
+            text-align: center;
+            a{
+                display: block;
+                .appstore{
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+    .precios{
+        background: #FFFBBD;
+        /*
+        background-size: cover;
+        background-position: center 0;
+        background-repeat: no-repeat;
+        padding: 70px 0px;
+        */
+        padding-top: 60px;
+        padding-bottom: 90px;
+        .titulo{
+            text-align: center;
+            font-family: 'Open Sans', Arial, Sans-serif;
+            font-weight: 300;
+            font-size: 32px;
+            color: #fff;
+            margin-bottom: 70px;
+            &.negro{
+                color: #000;
+            }
+        }
+        .plan{
+            background: #fff;
+            text-align: center;
+            font-family: 'Open Sans', Arial, Sans-serif;
+            padding: 50px 0px;
+            -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+            .nombre{
+                font-size: 32px;
+                line-height: 32px;
+                font-weight: 300;
+                margin-bottom: 30px;
+            }
+            .precio{
+                font-weight: 300;
+                font-size: 48px;
+                margin-bottom: 0px;
+            }
+            .mensualidad{
+                margin-bottom: 30px;
+                &.verde{
+                    color: #86b773;
+                }
+            }
+            .caracteristicas{
+                list-style: none;
+                padding: 0px 20px;
+                margin-bottom: 50px;
+                li{
+                    font-size: 18px;
+                    padding: 15px 0px;
+                    border-bottom: 1px solid #dedede;
+                }
+                .premiunBorder{
+                    border-bottom: 1px solid #000;
+                }
+            }
+            .btn{
+                width: 70%;
+                font-size: 16px;
+                padding: 15px 0px;
+                text-align: center;
+                display: inline-block;
+                border-radius: 100px;
+            }
+            &.verde{
+                background: #FFF8F0;
+                .nombre, .precio{
+                    color: #86b773;
+                }
+                .btn{
+                    color: #86b773;
+                    border: 2px solid #86b773;
+                    &:hover{
+                        background: #86b773;
+                        color: #fff;
+                    }
+                }
+            }
+            &.active{
+                background: #9E2B25;
+                color: #fff;
+                .btn{
+                    color: #fff;
+                    border: 2px solid #fff;
+                    &:hover{
+                        background: #fff;
+                        color: #9E2B25;
+                    }
+                }
+            }
+            &.naranja{
+                background: #ffac00;
+                color: #000;
+                .btn{
+                    color: #000;
+                    border: 2px solid #000;
+                    &:hover{
+                        background: #000;
+                        color: #ffac00;
+                    }
+                }
+            }
+        }
+    }
+    .reviews{
+        padding: 70px;
+        .titulo{
+            text-align: center;
+            font-family: 'Open Sans', Arial, Sans-serif;
+            font-weight: 300;
+            font-size: 32px;
+            color: #4facd3;
+            margin-bottom: 70px;
+        }
+        .cliente{
+            overflow: hidden;
+            margin-bottom: 20px;
+            .foto{
+                width: 20%;
+                float: left;
+                text-align: right;
+                img{
+                    max-width: 100px;
+                    width: 100%;
+                    vertical-align: top;
+                    border-radius: 100%;
+                }
+            }
+            .review{
+                float: left;
+                width: 80%;
+                padding: 0px 30px;
+                margin-top: 20px;
+                .texto{
+                    font-size: 18px;
+                    line-height: 28px;
+                    margin-bottom: 10px;
+                }
+                .nombre{
+                    color: #ddb146;
+                    font-size: 16px;
+                }
+            }
+            &.derecha{
+                .foto{
+                    float: right;
+                    text-align: left;
+                }
+                .review{
+                    float: right;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
